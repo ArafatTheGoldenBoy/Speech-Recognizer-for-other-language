@@ -18,7 +18,7 @@ Building a speech recognizer by using cmu-sphinx for all language
 # Step8: we need to change some settings in notepad++ and install TextFX plugin.For this part 	follow the video to understand how to use them.
 # Step9: Create nessesary file for building a acoustic model and language model or Grammer.
 # Step10: For language model, http://www.speech.cs.cmu.edu/tools/lmtool-new.html
-	For grammer, 
+# 	For grammer, 
 	#JSGF V1.0 ISO8859-5;
 
 	
