@@ -1,0 +1,49 @@
+Language model created by QuickLM on Fri Mar  2 17:01:01 EST 2018
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 6 sentences and 8 words
+
+\data\
+ngram 1=8
+ngram 2=12
+ngram 3=6
+
+\1-grams:
+-0.7782 </s> -0.3010
+-0.7782 <s> -0.2218
+-1.5563 DREI -0.2218
+-1.5563 ONE -0.2218
+-1.5563 VIJF -0.2218
+-1.5563 أربعة -0.2218
+-1.5563 দুই -0.2218
+-1.5563 ありがとう -0.2218
+
+\2-grams:
+-1.0792 <s> DREI 0.0000
+-1.0792 <s> ONE 0.0000
+-1.0792 <s> VIJF 0.0000
+-1.0792 <s> أربعة 0.0000
+-1.0792 <s> দুই 0.0000
+-1.0792 <s> ありがとう 0.0000
+-0.3010 DREI </s> -0.3010
+-0.3010 ONE </s> -0.3010
+-0.3010 VIJF </s> -0.3010
+-0.3010 أربعة </s> -0.3010
+-0.3010 দুই </s> -0.3010
+-0.3010 ありがとう </s> -0.3010
+
+\3-grams:
+-0.3010 <s> DREI </s>
+-0.3010 <s> ONE </s>
+-0.3010 <s> VIJF </s>
+-0.3010 <s> أربعة </s>
+-0.3010 <s> দুই </s>
+-0.3010 <s> ありがとう </s>
+
+\end\

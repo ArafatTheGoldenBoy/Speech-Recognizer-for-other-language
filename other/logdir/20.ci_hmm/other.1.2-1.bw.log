@@ -1,0 +1,129 @@
+INFO: main.c(229): Compiled on Mar  3 2018 at 03:53:16
+Current configuration:
+[NAME]		[DEFLT]		[VALUE]
+-2passvar	no		yes
+-abeam		1e-100		1.000000e-90
+-accumdir			C:/sphinx/other/bwaccumdir/other_buff_1
+-agc		none		none
+-agcthresh	2.0		2.000000e+00
+-bbeam		1e-100		1.000000e-10
+-cb2mllrfn	.1cls.		.1cls.
+-cepdir				C:/sphinx/other/feat
+-cepext		mfc		mfc
+-ceplen		13		13
+-ckptintv			0
+-cmn		live		batch
+-cmninit	40,3,-1		40,3,-1
+-ctlfn				C:/sphinx/other/etc/other_train.fileids
+-diagfull	no		no
+-dictfn				C:/sphinx/other/etc/other.dic
+-example	no		no
+-fdictfn			C:/sphinx/other/etc/other.filler
+-feat		1s_c_d_dd	1s_c_d_dd
+-fullvar	no		no
+-help		no		no
+-hmmdir				
+-latdir				
+-latext				
+-lda				
+-ldadim		0		0
+-lsnfn				C:/sphinx/other/etc/other_train.transcription
+-lw		11.5		1.150000e+01
+-maxuttlen	0		0
+-meanfn				C:/sphinx/other/model_parameters/other.ci_cont/means
+-meanreest	yes		yes
+-mixwfn				C:/sphinx/other/model_parameters/other.ci_cont/mixture_weights
+-mixwreest	yes		yes
+-mllrmat			
+-mmie		no		no
+-mmie_type	rand		rand
+-moddeffn			C:/sphinx/other/model_architecture/other.ci.mdef
+-mwfloor	0.00001		1.000000e-08
+-npart				1
+-nskip				0
+-outphsegdir			
+-outputfullpath	no		no
+-part				1
+-pdumpdir			
+-phsegdir			
+-phsegext	phseg		phseg
+-runlen		-1		-1
+-sentdir			
+-sentext	sent		sent
+-spthresh	0.0		0.000000e+00
+-svspec				
+-timing		yes		no
+-tmatfn				C:/sphinx/other/model_parameters/other.ci_cont/transition_matrices
+-tmatreest	yes		yes
+-topn		4		1
+-tpfloor	0.0001		1.000000e-04
+-ts2cbfn			.cont.
+-varfloor	0.00001		1.000000e-04
+-varfn				C:/sphinx/other/model_parameters/other.ci_cont/variances
+-varnorm	no		no
+-varreest	yes		yes
+-viterbi	no		no
+
+INFO: feat.c(715): Initializing feature stream to type: '1s_c_d_dd', ceplen=13, CMN='batch', VARNORM='no', AGC='none'
+INFO: main.c(318): Reading C:/sphinx/other/model_architecture/other.ci.mdef
+INFO: model_def_io.c(573): Model definition info:
+INFO: model_def_io.c(574): 14 total models defined (14 base, 0 tri)
+INFO: model_def_io.c(575): 56 total states
+INFO: model_def_io.c(576): 42 total tied states
+INFO: model_def_io.c(577): 42 total tied CI states
+INFO: model_def_io.c(578): 14 total tied transition matrices
+INFO: model_def_io.c(579): 4 max state/model
+INFO: model_def_io.c(580): 4 min state/model
+INFO: s3mixw_io.c(117): Read C:/sphinx/other/model_parameters/other.ci_cont/mixture_weights [42x1x1 array]
+INFO: s3tmat_io.c(118): Read C:/sphinx/other/model_parameters/other.ci_cont/transition_matrices [14x3x4 array]
+INFO: mod_inv.c(301): inserting tprob floor 1.000000e-04 and renormalizing
+INFO: s3gau_io.c(169): Read C:/sphinx/other/model_parameters/other.ci_cont/means [42x1x1 array]
+INFO: s3gau_io.c(169): Read C:/sphinx/other/model_parameters/other.ci_cont/variances [42x1x1 array]
+INFO: gauden.c(176): 42 total mgau
+INFO: gauden.c(150): 1 feature streams (|0|=39 )
+INFO: gauden.c(187): 1 total densities
+INFO: gauden.c(90): min_var=1.000000e-04
+INFO: gauden.c(165): compute 1 densities/frame
+INFO: main.c(431): Will reestimate mixing weights.
+INFO: main.c(433): Will reestimate means.
+INFO: main.c(435): Will reestimate variances.
+INFO: main.c(443): Will reestimate transition matrices
+INFO: main.c(456): Reading main dictionary: C:/sphinx/other/etc/other.dic
+INFO: lexicon.c(221): 6 entries added from C:/sphinx/other/etc/other.dic
+INFO: main.c(466): Reading filler dictionary: C:/sphinx/other/etc/other.filler
+INFO: lexicon.c(221): 3 entries added from C:/sphinx/other/etc/other.filler
+INFO: corpus.c(1062): Will process all remaining utts starting at 0
+INFO: main.c(665): Reestimation: Baum-Welch
+INFO: cmn.c(133): CMN: 53.99 16.71 -5.29 -20.83  0.46 -12.75  9.92 -1.51 -5.24 -1.91  8.40  5.47 -8.80 
+column defns
+	<seq>
+	<id>
+	<n_frame_in>
+	<n_frame_del>
+	<n_state_shmm>
+	<avg_states_alpha>
+	<avg_states_beta>
+	<avg_states_reest>
+	<avg_posterior_prune>
+	<frame_log_lik>
+	<utt_log_lik>
+	... timing info ... 
+utt>     0                      arba  114    0INFO: cvt2triphone.c(199): no multiphones defined, no conversion done
+    12 9  2 4 2.999178e-12 -1.484532e+02 -1.692367e+04
+INFO: cmn.c(133): CMN: 51.89 12.37 -1.21 -3.25  2.81 -2.96  0.88 -5.80 -0.40 -7.67 10.11 -3.98 -1.48 
+utt>     1                   arigato  113    0    12 8  2 4 2.952814e-12 -1.517914e+02 -1.715243e+04
+INFO: cmn.c(133): CMN: 46.05  8.48 -0.23  9.00  9.18 -2.25  4.29 -3.99  2.65 -0.46  4.92 -3.87 -0.09 
+utt>     2                      drei  113    0    20 13  2 5 4.837447e-12 -1.430964e+02 -1.616990e+04
+INFO: cmn.c(133): CMN: 37.33  9.39  8.01 14.63 10.43 -3.97  6.54 -1.78  2.43 -7.53  0.39 -2.21 -1.21 
+utt>     3                       dui  107    0    12 8  2 4 1.459103e-12 -1.448289e+02 -1.549669e+04
+INFO: cmn.c(133): CMN: 46.96 14.76 -4.05 -4.57 -0.10 -8.16 13.30  2.67 -8.36 -3.38  4.15 -1.02  2.34 
+utt>     4                       one   83    0    20 11  2 4 6.450604e-12 -1.415766e+02 -1.175086e+04
+INFO: cmn.c(133): CMN: 45.90  1.30  9.12  6.59  7.49  3.42 -3.50 -1.67  1.58 -0.97  0.67 -4.24  2.72 
+utt>     5                      vijf  135    0    24 14  2 5 6.069964e-12 -1.440530e+02 -1.944716e+04
+overall> stats 665 (-0) -1.457755e+02 -9.694070e+04
+
+INFO: s3mixw_io.c(233): Wrote C:/sphinx/other/bwaccumdir/other_buff_1/mixw_counts [42x1x1 array]
+INFO: s3tmat_io.c(176): Wrote C:/sphinx/other/bwaccumdir/other_buff_1/tmat_counts [14x3x4 array]
+INFO: s3gau_io.c(485): Wrote C:/sphinx/other/bwaccumdir/other_buff_1/gauden_counts with means with vars (2pass) [42x1x1 vector arrays]
+INFO: main.c(999): Counts saved to C:/sphinx/other/bwaccumdir/other_buff_1
+Sat Mar  3 04:31:46 2018

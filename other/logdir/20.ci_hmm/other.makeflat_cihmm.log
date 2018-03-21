@@ -1,0 +1,24 @@
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-example	no	no
+-help		no	no
+-mixwfn			C:\sphinx\other\model_parameters\other.ci_cont_flatinitial\mixture_weights
+-moddeffn		C:/sphinx/other/model_architecture/other.ci.mdef
+-ndensity	256	1
+-nstream	4	1
+-tmatfn			C:\sphinx\other\model_parameters\other.ci_cont_flatinitial\transition_matrices
+-topo			C:/sphinx/other/model_architecture/other.topology
+
+INFO: model_def_io.c(573): Model definition info:
+INFO: model_def_io.c(574): 14 total models defined (14 base, 0 tri)
+INFO: model_def_io.c(575): 56 total states
+INFO: model_def_io.c(576): 42 total tied states
+INFO: model_def_io.c(577): 42 total tied CI states
+INFO: model_def_io.c(578): 14 total tied transition matrices
+INFO: model_def_io.c(579): 4 max state/model
+INFO: model_def_io.c(580): 4 min state/model
+INFO: s3tmat_io.c(176): Wrote C:\sphinx\other\model_parameters\other.ci_cont_flatinitial\transition_matrices [14x3x4 array]
+INFO: s3mixw_io.c(233): Wrote C:\sphinx\other\model_parameters\other.ci_cont_flatinitial\mixture_weights [42x1x1 array]
+..\..\..\src\programs\mk_flat\main.c(83): Reading model definition file C:/sphinx/other/model_architecture/other.ci.mdef
+..\..\..\src\programs\mk_flat\main.c(90): 14 models defined
+Sat Mar  3 04:31:45 2018

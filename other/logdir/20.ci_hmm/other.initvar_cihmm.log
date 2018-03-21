@@ -1,0 +1,45 @@
+Current configuration:
+[NAME]		[DEFLT]		[VALUE]
+-accumdir			C:/sphinx/other/bwaccumdir/other_buff_1
+-agc		none		none
+-agcthresh	2.0		2.000000e+00
+-cepdir				C:/sphinx/other/feat
+-cepext		mfc		mfc
+-ceplen		13		13
+-cmn		live		batch
+-cmninit	40,3,-1		40,3,-1
+-ctlfn				C:/sphinx/other/etc/other_train.fileids
+-dictfn				
+-example	no		no
+-fdictfn			
+-feat		1s_c_d_dd	1s_c_d_dd
+-fullvar	no		no
+-help		no		no
+-lda				
+-ldadim		0		0
+-lsnfn				
+-meanfn				C:\sphinx\other\model_parameters\other.ci_cont_flatinitial\globalmean
+-moddeffn			
+-npart				1
+-nskip				0
+-part				1
+-runlen				0
+-scaleseg	no		no
+-segdir				
+-segext		v8_seg		v8_seg
+-svspec				
+-ts2cbfn			
+-varnorm	no		no
+
+INFO: feat.c(715): Initializing feature stream to type: '1s_c_d_dd', ceplen=13, CMN='batch', VARNORM='no', AGC='none'
+INFO: corpus.c(1062): Will process all remaining utts starting at 0
+INFO: init_gau.c(145): Computing 1x1x1 variance estimates
+INFO: s3gau_io.c(169): Read C:\sphinx\other\model_parameters\other.ci_cont_flatinitial\globalmean [1x1x1 array]
+INFO: cmn.c(133): CMN: 53.99 16.71 -5.29 -20.83  0.46 -12.75  9.92 -1.51 -5.24 -1.91  8.40  5.47 -8.80 
+INFO: cmn.c(133): CMN: 51.89 12.37 -1.21 -3.25  2.81 -2.96  0.88 -5.80 -0.40 -7.67 10.11 -3.98 -1.48 
+INFO: cmn.c(133): CMN: 46.05  8.48 -0.23  9.00  9.18 -2.25  4.29 -3.99  2.65 -0.46  4.92 -3.87 -0.09 
+INFO: cmn.c(133): CMN: 37.33  9.39  8.01 14.63 10.43 -3.97  6.54 -1.78  2.43 -7.53  0.39 -2.21 -1.21 
+INFO: cmn.c(133): CMN: 46.96 14.76 -4.05 -4.57 -0.10 -8.16 13.30  2.67 -8.36 -3.38  4.15 -1.02  2.34 
+INFO: cmn.c(133): CMN: 45.90  1.30  9.12  6.59  7.49  3.42 -3.50 -1.67  1.58 -0.97  0.67 -4.24  2.72 
+INFO: s3gau_io.c(485): Wrote C:/sphinx/other/bwaccumdir/other_buff_1/gauden_counts with vars (2pass) [1x1x1 vector arrays]
+Sat Mar  3 04:31:45 2018

@@ -1,0 +1,34 @@
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-accumdir		C:\sphinx\other\bwaccumdir\other_buff_1,
+-constE		3.0	3.000000e+00
+-dcountfn		
+-example	no	no
+-fullvar	no	no
+-help		no	no
+-inmeanfn		
+-inmixwfn		
+-invarfn		
+-meanfn			C:/sphinx/other/model_parameters/other.ci_cont/means
+-mixwfn			C:/sphinx/other/model_parameters/other.ci_cont/mixture_weights
+-mmie		no	no
+-oaccumdir		
+-regmatfn		
+-tiedvar	no	no
+-tmatfn			C:/sphinx/other/model_parameters/other.ci_cont/transition_matrices
+-varfn			C:/sphinx/other/model_parameters/other.ci_cont/variances
+
+INFO: main.c(207): Reading and accumulating counts from C:\sphinx\other\bwaccumdir\other_buff_1
+INFO: s3mixw_io.c(117): Read C:\sphinx\other\bwaccumdir\other_buff_1/mixw_counts [42x1x1 array]
+INFO: s3tmat_io.c(118): Read C:\sphinx\other\bwaccumdir\other_buff_1/tmat_counts [14x3x4 array]
+INFO: s3gau_io.c(386): Read C:\sphinx\other\bwaccumdir\other_buff_1/gauden_counts with means with vars (2pass) [42x1x1 vector arrays]
+INFO: main.c(321): -2passvar yes
+INFO: main.c(391): Normalizing mean for n_mgau= 42, n_stream= 1, n_density= 1
+INFO: main.c(414): Normalizing var
+INFO: s3mixw_io.c(233): Wrote C:/sphinx/other/model_parameters/other.ci_cont/mixture_weights [42x1x1 array]
+INFO: s3tmat_io.c(176): Wrote C:/sphinx/other/model_parameters/other.ci_cont/transition_matrices [14x3x4 array]
+INFO: s3gau_io.c(228): Wrote C:/sphinx/other/model_parameters/other.ci_cont/means [42x1x1 array]
+INFO: s3gau_io.c(228): Wrote C:/sphinx/other/model_parameters/other.ci_cont/variances [42x1x1 array]
+Sat Mar  3 04:31:47 2018
+Current Overall Likelihood Per Frame = -137.702496240602
+Convergence ratio = 2.47669172932351
