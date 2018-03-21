@@ -1,6 +1,6 @@
 # Speech-Recognizer-for-other-language
 Building a speech recognizer by using cmu-sphinx for all language
-Step1: Install python and perl.
+# Step1: Install python and perl.
 Step2: After the install need to cheack by using command in command prompt,
 	the command is : for python = python -V 
 			for perl = perl -v
